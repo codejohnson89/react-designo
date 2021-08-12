@@ -1,0 +1,30 @@
+body {
+    font-family: $Jost;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 5px;
+}
+

@@ -1,0 +1,133 @@
+footer {
+    min-height: 393px;
+    background-color: $black;
+    // max-width: 1111px;
+    // margin: 0 auto;
+
+    .topSectionFooter {
+        max-width: 80.742%;
+        margin: 0 auto;
+        position: relative;
+        top: 144px;
+
+        .d-flex {
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 0 40px;
+            border-bottom: 1px solid rgba(255, 255, 255, .1);
+
+            .logoTextFooter {
+                color: $white;
+                font-family: $Spartan;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                height: 24px;
+                line-height: 27px;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+                top: calc(50% - 27px/2);
+                position: relative;
+
+                #circle {
+                    height: 24px;
+                    width: 24px;
+                    margin-right: 16px;
+                    border-radius: 15px;
+                    display: inline-block;
+                    transform: matrix(0, -1, -1, 0, 0, 0);
+                    background: conic-gradient(from 90deg at 50% 50%, rgba(231, 129, 107, 0.0001) 0deg, #E7816B 359.74deg, rgba(231, 129, 107, 0.0001) 360deg);
+                }
+            }
+
+            .footerTextLinks {
+                position: relative;
+                width: 370px;
+                height: 14px;
+                display: flex;
+                justify-content: space-around;
+
+                a {
+                    color: $white;
+                    font-family: $Jost;
+                    font-style: normal;
+                    font-size: 14px;
+                    letter-spacing: 2px;
+                    line-height: 14px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+
+                // left: 906px;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            max-width: 92.742%;
+        }
+        @media only screen and (max-width: 576px) {
+            max-width: 100%;            
+            top: 253px;
+            .d-flex {
+                flex-direction: column;
+                border: none;
+                .footerTextLinks {
+                    flex-direction: column;
+                    align-items: center;
+                    top: 115px;
+                    a {
+                        margin: 16px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottomSectionFooter {
+        max-width: 80.742%;
+        max-height: 78px;
+        margin: 0 auto;
+        position: relative;
+        top: 169px;
+
+        p {
+            color: $white;
+            opacity: .5;
+        }
+
+        .social-media {
+            position: relative;
+            top: 49px;
+
+            svg {
+                margin: 0 8px;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            max-width: 92.742%;
+        }
+        @media only screen and (max-width: 576px) {
+            max-width: 100%;
+            top: 410px;
+            justify-content: center;
+            p {
+                text-align: center;
+            }
+            .social-media {
+                text-align: center;
+                top: 15px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        height: 815px;
+        .customBorder {
+            background-color: rgba(255, 255, 255, .5);
+            height: 1px;
+            position: relative;
+            top: 233px;
+        }
+    }
+
+
+}
