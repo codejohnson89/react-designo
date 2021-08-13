@@ -1,0 +1,79 @@
+header {
+    padding: 64px 0 67px;
+
+    .navbar {
+        .container {
+                max-width: 1111px;
+                width: 100%;
+                margin: 0 auto;
+
+
+                .navbar-brand {
+                    color: $black;
+                    text-transform: uppercase;
+                    display: inline-block;
+
+                    @media only screen and (max-width: 576px) {
+                    padding: 36px 24px;
+                    }
+
+                    #circle {
+                        background: conic-gradient(from 90deg at 50% 50%, rgba(231, 129, 107, 0.0001) 0deg, #E7816B 359.74deg, rgba(231, 129, 107, 0.0001) 360deg);
+                        transform: matrix(0, -1, -1, 0, 0, 0);
+                        height: 24px;
+                        width: 24px;
+                        border-radius: 15px;
+                        display: inline-block;
+                        margin-right: .5em;
+                        position: relative;
+                        top: 6px;
+                    }
+                }
+                #responsive-navbar-nav {
+                    justify-content: flex-end;
+                    .navbar-nav {
+                        height: 14px;
+    
+                        .nav-link {
+                            height: 14px;
+                            font-family: Jost;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 14px;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            color: $black;
+                        }
+
+                        @media only screen and (max-width: 576px) {
+                            height: 100%;
+                            background-color: $black;
+                            padding: 48px 24px;
+
+                            .nav-link {
+                                height: 100%;
+                                color: $white;
+                                margin: 16px 0;
+                            }
+                        }
+                    }
+                }
+
+                button {
+                    @media only screen and (max-width: 576px) {
+                        margin-right: 1em;
+                    }
+                }
+
+                @media only screen and (max-width: 576px) {
+                    padding: 0px;
+                }
+               
+            }
+        }
+
+        @media only screen and (max-width: 576px) {
+            padding: 0;
+        }
+    }
