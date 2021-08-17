@@ -1,0 +1,104 @@
+#homeProjects {
+    .row {
+        height: 640px;
+        max-width: 1111px;
+        margin: 160px auto;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        column-gap: 30px;
+        row-gap: 24px;
+
+        .design {
+            align-items: center;
+            border-radius: 10px;
+            background-color: red;
+            padding: 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .text-container {
+                height: 100%;
+                width: 100%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                &:hover {
+                    background-color: rgba(231,129,104, .7);
+                    cursor: pointer;
+                }
+            }
+            
+
+            h2,
+            p {
+                color: $white;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 22px;
+                letter-spacing: 5px;
+            }
+        }
+
+        .web {
+            grid-column-start: 1;
+            grid-column-end: 7;
+            grid-row-start: 1;
+            grid-row-end: -1;
+            background-image: url('../assets/home/desktop/image-web-design-large.jpg');
+        }
+
+        .app {
+            grid-column-start: 7;
+            grid-column-end: -1;
+            grid-row-start: 1;
+            grid-row-end: 7;
+            background-image: url('../assets/home/desktop/image-app-design.jpg');
+        }
+
+        .graphic {
+            grid-column-start: 7;
+            grid-column-end: -1;
+            grid-row-start: 7;
+            grid-row-end: -1;
+            background-image: url('../assets/home/desktop/image-graphic-design.jpg');
+        }
+
+        @media only screen and (max-width: 1024px) {
+            height: 650px;
+            max-width: 690px;
+            .design {
+                grid-column-start: 1;
+                grid-column-end: -1;
+            }
+            .web {
+                grid-row-start: 1;
+                grid-row-end: 5;
+                background-image: url('../assets/home/tablet/image-web-design.jpg');
+            }
+            .app {
+                grid-row-start: 5;
+                grid-row-end: 9;
+                background-image: url('../assets/home/tablet/image-app-design.jpg');
+            }
+            .graphic {
+                grid-row-start: 9;
+                grid-row-end: -1;
+                background-image: url('../assets/home/tablet/image-graphic-design.jpg');
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            max-width: 327px;
+            height: 798px;
+            margin: 120 auto;
+        }
+
+    }
+}
