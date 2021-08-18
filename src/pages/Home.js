@@ -1,11 +1,15 @@
 import React from 'react';
 import Jumbotron from '../components/Jumbotron';
 
-import { Button } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import phoneImg from '../assets/home/desktop/image-hero-phone.png';
 import Oval from '../components/Oval';
 import HomeProjects from '../components/HomeProjects';
 import Designs from '../components/Designs';
+import AboutHomeCard from '../components/AboutHomeCard';
+import friendly from '../assets/home/desktop/illustration-friendly.svg';
+import passionate from '../assets/home/desktop/illustration-passionate.svg';
+import resourceful from '../assets/home/desktop/illustration-resourceful.svg';
 
 
 const Home = () => {
@@ -24,6 +28,13 @@ const Home = () => {
             <Oval />
             <HomeProjects />
             <Designs />
+            <Container>
+                <div className="card-container">
+                    <AboutHomeCard heading="passionate" altText="passionate" image={passionate} text="Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions."/>
+                    <AboutHomeCard heading="resourceful" altText="resourceful" image={resourceful} text="Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs."/>
+                    <AboutHomeCard heading="friendly" altText="friendly" image={friendly} text="We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we  strive to give them the best experience a company can provide."/>
+                </div>
+            </Container>
         </>
     )
 }
