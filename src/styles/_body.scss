@@ -28,3 +28,20 @@ h3 {
     letter-spacing: 5px;
 }
 
+.btn-custom {
+    background-color: $white;
+    color: $black;
+    width: 152px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    text-transform: uppercase;
+    height: 56px;
+    &:hover {
+        color: $white;
+        background-color: $lightPeach;
+        border-color: transparent;
+    }
+}

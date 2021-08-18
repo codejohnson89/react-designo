@@ -7,6 +7,7 @@
     margin: 0 auto;
     background-position: right;
     overflow: hidden;
+    transition: 2s;
 
     .phone {
         position: relative;
@@ -78,3 +79,23 @@
     }
 }
 
+
+.subpage {
+    .jumbotron {
+    min-height: 252px;
+    max-width: 1111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+    h1 {
+        text-transform: uppercase;
+        color: $white;
+    }
+    p {
+        text-transform: capitalize;
+        color: $white;
+    }
+    }
+}

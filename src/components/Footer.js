@@ -1,14 +1,22 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import FooterMidSection from './FooterMidSection';
+
+import logo from '../assets/shared/desktop/logo-light.png';
 
 
 const Footer = () => {
     return (
+        <>
+        <FooterMidSection />
         <footer className="container">
                 <Row className="topSectionFooter">
                     <div className="flex-sm-row d-flex">
-                        <h3 className="logoTextFooter"><div id="circle"></div>designo</h3>
+                        {/* <h3 className="logoTextFooter"><div id="circle"></div>designo</h3> */}
+                        <figure>
+                            <img className="img-fluid" src={logo} alt="footer logo"/>
+                        </figure>
                         <div className="footerTextLinks">
                             <Link to="/">our company</Link>
                             <Link to="/">locations</Link>
@@ -39,6 +47,7 @@ const Footer = () => {
                     </Col>
                 </Row>
         </footer>
+        </>
     )
 }
 

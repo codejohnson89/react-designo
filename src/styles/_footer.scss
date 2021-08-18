@@ -40,6 +40,13 @@ footer {
                 }
             }
 
+            figure {
+                margin-bottom: 0px;
+                .img-fluid {
+                    max-width: 202px;
+                }
+            }
+
             .footerTextLinks {
                 position: relative;
                 width: 370px;

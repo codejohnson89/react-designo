@@ -5,11 +5,11 @@ import { Button, Container } from 'react-bootstrap';
 import phoneImg from '../assets/home/desktop/image-hero-phone.png';
 import Oval from '../components/Oval';
 import HomeProjects from '../components/HomeProjects';
-import Designs from '../components/Designs';
 import AboutHomeCard from '../components/AboutHomeCard';
 import friendly from '../assets/home/desktop/illustration-friendly.svg';
 import passionate from '../assets/home/desktop/illustration-passionate.svg';
 import resourceful from '../assets/home/desktop/illustration-resourceful.svg';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
                 <div className="homeContent">
                     <h1>Award-winning custom designs and digital branding solutions</h1>
                     <p>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
-                    <Button>learn more</Button>
+                    <Link to="/about"><Button className="btn-custom">learn more</Button></Link>
                 </div>
                 <figure>
                 <img className="img-fluid phone" src={phoneImg} alt="hero phone"/>
@@ -27,7 +27,6 @@ const Home = () => {
             </Jumbotron>
             <Oval />
             <HomeProjects />
-            <Designs />
             <Container>
                 <div className="card-container">
                     <AboutHomeCard heading="passionate" altText="passionate" image={passionate} text="Each project starts with an in-depth brand research to ensure we only create products that serve a purpose. We merge art, design, and technology into exciting new solutions."/>

@@ -1,13 +1,14 @@
 import React from 'react';
 
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import logo from '../assets/shared/desktop/logo-dark.png';
 
 const Header = () => {
     return(
         <header>
             <Navbar collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home"><div id="circle"></div>designo</Navbar.Brand>
+                    <Navbar.Brand href="#home"><figure><img className="img-fluid" src={logo} alt="header logo"/></figure></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav>
