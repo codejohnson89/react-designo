@@ -1,0 +1,127 @@
+.locations {
+    display: flex;
+    flex-direction: column;
+    max-width: 1111px;
+    margin: 0 auto;
+    gap: 30px;
+
+    .singleMap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 15px;
+        gap: 30px;
+
+
+
+        .map {
+            width: 350px;
+            height: 326px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+
+        }
+
+        .one {
+            background-image: url('../assets/locations/desktop/image-map-canada.png');
+        }
+
+        .two {
+            background-image: url('../assets/locations/desktop/image-map-australia.png');
+        }
+
+        .three {
+            background-image: url('../assets/locations/desktop/image-map-united-kingdom.png');
+        }
+
+        .contact {
+            width: 730px;
+            height: 326px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #FDF3F0;
+            background-image: url('../assets/shared/desktop/bg-pattern-two-circles.svg');
+            background-repeat: no-repeat;
+            background-position: bottom;
+            border-radius: 10px;
+
+            h1 {
+                position: relative;
+                left: 95px;
+                color: $peach;
+                text-transform: capitalize;
+            }
+
+            .office,
+            .phone {
+                font-weight: 700;
+            }
+
+            .contact-info {
+                display: flex;
+                position: relative;
+                left: 95px;
+                gap: 30px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        width: 690px;
+        height: 2502px;
+
+        .singleMap {
+            flex-direction: column-reverse;
+
+            .map,
+            .contact {
+                width: 100%;
+            }
+
+            .one {
+                background-image: url('../assets/locations/tablet/image-map-canada.png');
+            }
+
+            .two {
+                background-image: url('../assets/locations/tablet/image-map-australia.png');
+            }
+
+            .three {
+                background-image: url('../assets/locations/tablet/image-map-uk.png');
+            }
+        }
+
+        .reverse {
+            flex-direction: column;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        max-width: 375px;
+        height: 2222px;
+
+        .singleMap {
+            gap: 0px;
+
+            .contact {
+                height: 394px;
+                text-align: center;
+
+                h1 {
+                    left: 0px;
+                }
+
+                .contact-info {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    left: 0px;
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+}

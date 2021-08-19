@@ -16,6 +16,8 @@
             align-items: center;
             text-decoration: none;
             padding: 0;
+            background-repeat: no-repeat;
+            background-size: cover;
 
             .design {
                 align-items: center;
@@ -140,6 +142,7 @@
         color: $white;
         text-transform: uppercase;
         text-align: center;
+
         .card-custom {
             width: 542px;
             height: 308px;
