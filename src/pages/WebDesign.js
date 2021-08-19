@@ -22,7 +22,7 @@ const WebDesign = () => {
                 <h1>web design</h1>
                 <p>We build websites that serve as powerful marketing tools and bring memorable brand experiences.</p>
             </Jumbotron>
-            <div className="card-container">
+            <div className="card-container card-container-grid">
                 <Card image={builder} altText="builder site" heading="builder" text="Connects users with local contractors based on their location"/>
                 <Card image={blogr} altText="blogr site" heading="blogr" text="Blogr is a platform for creating an online blog or publication"/>
                 <Card image={camp} altText="camp site" heading="camp" text="Get expert training in coding, data, design, and digital marketing"/>
@@ -32,7 +32,7 @@ const WebDesign = () => {
             </div>
             <div className="project-container">
             <Designs image={app} heading="app design" text="view projects" altText="app design" link="/appdesign" />
-            <Designs image={design} heading="graphic design" text="view projects" altText="graphic design" link="/graphicdesign" />
+            <Designs image={design} heading="web design" text="view projects" altText="graphic design" link="/webdesign" />
             </div>
         </div>
         </>

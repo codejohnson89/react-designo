@@ -22,7 +22,7 @@ const AppDesign = () => {
                 <h1>app design</h1>
                 <p>Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.</p>
                 </Jumbotron>
-                <div className="card-container">
+                <div className="card-container card-container-grid">
                     <Card image={airfilter} altText="air filter" heading="airfilter" text="Solving the problem of poor indoor air quality by filtering the air" />
                     <Card image={eyecam} altText="eye cam" heading="eyecam" text="Product that lets you edit your favorite photos and videos at any time" />
                     <Card image={faceit} altText="face it" heading="faceit" text="Get to meet your favorite internet superstar with the faceit app" />
