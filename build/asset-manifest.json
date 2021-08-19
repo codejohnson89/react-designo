@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f601ae66.chunk.css",
+    "main.js": "/static/js/main.5d33ae2b.chunk.js",
+    "main.js.map": "/static/js/main.5d33ae2b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7545a8a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7545a8a1.js.map",
+    "static/css/2.cc12d890.chunk.css": "/static/css/2.cc12d890.chunk.css",
+    "static/js/2.5763a320.chunk.js": "/static/js/2.5763a320.chunk.js",
+    "static/js/2.5763a320.chunk.js.map": "/static/js/2.5763a320.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.cc12d890.chunk.css.map": "/static/css/2.cc12d890.chunk.css.map",
+    "static/css/main.f601ae66.chunk.css.map": "/static/css/main.f601ae66.chunk.css.map",
+    "static/js/2.5763a320.chunk.js.LICENSE.txt": "/static/js/2.5763a320.chunk.js.LICENSE.txt",
+    "static/media/bg-pattern-intro-web.0b6766bb.svg": "/static/media/bg-pattern-intro-web.0b6766bb.svg",
+    "static/media/App.scss": "/static/media/image-web-design.7790aab8.jpg",
+    "static/media/illustration-friendly.18c1de56.svg": "/static/media/illustration-friendly.18c1de56.svg",
+    "static/media/illustration-passionate.f7cd8dfd.svg": "/static/media/illustration-passionate.f7cd8dfd.svg",
+    "static/media/illustration-resourceful.c2ec0f61.svg": "/static/media/illustration-resourceful.c2ec0f61.svg",
+    "static/media/image-airfilter.268fdba1.jpg": "/static/media/image-airfilter.268fdba1.jpg",
+    "static/media/image-blogr.ac304141.jpg": "/static/media/image-blogr.ac304141.jpg",
+    "static/media/image-boxed-water.9348f4ac.jpg": "/static/media/image-boxed-water.9348f4ac.jpg",
+    "static/media/image-builder.dbb2812f.jpg": "/static/media/image-builder.dbb2812f.jpg",
+    "static/media/image-camp.ff43646c.jpg": "/static/media/image-camp.ff43646c.jpg",
+    "static/media/image-change.3051c97c.jpg": "/static/media/image-change.3051c97c.jpg",
+    "static/media/image-express.53802593.jpg": "/static/media/image-express.53802593.jpg",
+    "static/media/image-eyecam.74f66bf4.jpg": "/static/media/image-eyecam.74f66bf4.jpg",
+    "static/media/image-faceit.ed52b7a3.jpg": "/static/media/image-faceit.ed52b7a3.jpg",
+    "static/media/image-hero-phone.d0056b2e.png": "/static/media/image-hero-phone.d0056b2e.png",
+    "static/media/image-loopstudios.46703ca6.jpg": "/static/media/image-loopstudios.46703ca6.jpg",
+    "static/media/image-photon.02f662d7.jpg": "/static/media/image-photon.02f662d7.jpg",
+    "static/media/image-science.04d5d632.jpg": "/static/media/image-science.04d5d632.jpg",
+    "static/media/image-todo.a32c78f5.jpg": "/static/media/image-todo.a32c78f5.jpg",
+    "static/media/image-transfer.899f2e5b.jpg": "/static/media/image-transfer.899f2e5b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7545a8a1.js",
+    "static/css/2.cc12d890.chunk.css",
+    "static/js/2.5763a320.chunk.js",
+    "static/css/main.f601ae66.chunk.css",
+    "static/js/main.5d33ae2b.chunk.js"
+  ]
+}
