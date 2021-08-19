@@ -93,18 +93,24 @@
             }
 
             .web {
+                grid-column-start: 1;
+                grid-column-end: -1;
                 grid-row-start: 1;
                 grid-row-end: 5;
                 background-image: url('../assets/home/tablet/image-web-design.jpg');
             }
 
             .app {
+                grid-column-start: 1;
+                grid-column-end: -1;
                 grid-row-start: 5;
                 grid-row-end: 9;
                 background-image: url('../assets/home/tablet/image-app-design.jpg');
             }
 
             .graphic {
+                grid-column-start: 1;
+                grid-column-end: -1;
                 grid-row-start: 9;
                 grid-row-end: -1;
                 background-image: url('../assets/home/tablet/image-graphic-design.jpg');
@@ -150,6 +156,7 @@
         max-width: 690px;
         height: 424px;
         flex-direction: column;
+        margin: 16px auto;
         gap: 24px;
 
         a {

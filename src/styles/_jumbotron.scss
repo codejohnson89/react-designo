@@ -25,7 +25,8 @@
             
             .phone {
                 left: 0;
-                bottom: 54px;
+                bottom: unset;
+                top: 70px;
             }
         }
     }
@@ -97,5 +98,11 @@
         text-transform: capitalize;
         color: $white;
     }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .oval-circle {
+        display: none;
     }
 }
