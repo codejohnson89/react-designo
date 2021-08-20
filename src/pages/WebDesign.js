@@ -2,7 +2,7 @@ import React from 'react';
 import Jumbotron from '../components/Jumbotron';
 
 import bgImage from '../assets/web-design/desktop/bg-pattern-intro-web.svg'
-import design from '../assets/home/desktop/image-graphic-design.jpg';
+import graphic from '../assets/home/desktop/image-graphic-design.jpg';
 import app from '../assets/home/desktop/image-app-design.jpg';
 import Designs from '../components/Designs';
 import Card from '../components/Card';
@@ -32,7 +32,7 @@ const WebDesign = () => {
             </div>
             <div className="project-container">
             <Designs image={app} heading="app design" text="view projects" altText="app design" link="/appdesign" />
-            <Designs image={design} heading="web design" text="view projects" altText="graphic design" link="/webdesign" />
+            <Designs image={graphic} heading="graphic design" text="view projects" altText="graphic design" link="/graphicdesign" />
             </div>
         </div>
         </>

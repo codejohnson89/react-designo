@@ -71,6 +71,7 @@
     @media only screen and (max-width: 1024px) {
         width: 690px;
         height: 2502px;
+        flex-direction: column;
 
         .singleMap {
             flex-direction: column-reverse;
@@ -100,7 +101,7 @@
 
     @media only screen and (max-width: 768px) {
         max-width: 375px;
-        height: 2222px;
+        height: 1188px;
 
         .singleMap {
             gap: 0px;
@@ -123,5 +124,16 @@
                 }
             }
         }
+    }
+}
+
+.locations-mini {
+    flex-direction: row;
+
+    @media only screen and (max-width: 1024px) {
+        flex-direction: column;
+        height: 1188px;
+        align-items: center;
+        margin: 120px auto;
     }
 }

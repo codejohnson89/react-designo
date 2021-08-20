@@ -1,9 +1,47 @@
 import React from 'react';
+import { useForm } from 'react-hook-form';
 
+import Jumbotron from '../components/Jumbotron';
+
+import image from '../assets/contact/desktop/bg-pattern-hero-desktop.svg';
+import Locations from '../components/Locations';
 
 const Contact = () => {
+    const { register, handleSubmit, formState: {errors} } = useForm();
+    const onSubmit = (data) => {
+        console.log(JSON.stringify(data));
+    }
     return (
-        <>contact</>
+        <>
+            <div className="contact">
+                <Jumbotron mImage={image}>
+                <div className="contact-content">
+                    <h1>contact us</h1>
+                    <p>Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.</p>
+                </div>
+                <div className="form-content">
+                    <form onSubmit={handleSubmit(onSubmit)}>
+                        <div>
+                            <input placeholder="Full Name" type="text" {...register("fullName", {required: true})} />
+                            {errors.fullName && <span>This field is required</span>}
+                        </div>
+                        <div>
+                            <input placeholder="Email" type="email" {...register("email", {required: true})} />
+                            {errors.email && <span>This field is required</span>}
+                        </div>
+                        <div>
+                            <input placeholder="Phone" type="text" {...register("phoneNumber")} />
+                        </div>
+                        <div>
+                            <input id="message" placeholder="Message" type="textarea" {...register("message")} />
+                        </div>
+                        <input id="submit" className="btn btn-custom" type="submit" placeholder="submit" />
+                    </form>
+                    </div>
+                </Jumbotron>
+                <Locations />
+            </div>
+        </>
     )
 }
 

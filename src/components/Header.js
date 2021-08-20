@@ -7,7 +7,7 @@ import logo from '../assets/shared/desktop/logo-dark.png';
 const Header = () => {
     return(
         <header>
-            <Navbar collapseOnSelect expand="lg">
+            <Navbar collapseOnSelect={true} expand="lg">
                 <Container>
                     <Link className="navbar-brand" to="/"><figure><img className="img-fluid" src={logo} alt="header logo"/></figure></Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

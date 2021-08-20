@@ -58,7 +58,7 @@
             background-image: url('../assets/about/mobile/image-about-hero.jpg');
             background-size: cover;
             width: 100%;
-            height: 320px;
+            min-height: 320px;
         }
     }
 }
