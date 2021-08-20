@@ -21,9 +21,9 @@ const Home = () => {
                     <p>With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
                     <Link to="/about"><Button className="btn-custom">learn more</Button></Link>
                 </div>
-                <figure>
-                <img className="img-fluid phone" src={phoneImg} alt="hero phone"/>
-                </figure>
+                <div className="phone-image">
+                {/* <img className="img-fluid phone" src={phoneImg} alt="hero phone"/> */}
+                </div>
             </Jumbotron>
             <Oval />
             <HomeProjects />

@@ -15,7 +15,8 @@ const Contact = () => {
     }, [])
 
     const { register, handleSubmit, formState: {errors} } = useForm();
-    const onSubmit = (data) => {
+    const onSubmit = (data, e) => {
+        e.target.reset();
         console.log(JSON.stringify(data));
     }
     return (

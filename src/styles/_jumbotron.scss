@@ -9,10 +9,17 @@
     overflow: hidden;
     transition: 2s;
 
-    .phone {
+    .phone-image {
+        // position: relative;
+        // bottom: 390px;
+        // left: 560px;
+        background-image: url('../assets/home/desktop/image-hero-phone.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 1000px;
         position: relative;
-        bottom: 390px;
-        left: 560px;
+        left: 500px;
+        bottom: 26em;
     }
 
     @media only screen and (max-width: 1024px) {
@@ -21,14 +28,11 @@
         background-position: 204px 102px;
         text-align: center;
 
-        figure {
-            text-align: center;
-            
-            .phone {
-                left: 0;
-                bottom: unset;
-                top: 90px;
-            }
+        .phone-image {
+            background-position: center center;
+            left: unset;
+            bottom: 1em;
+            height: 100%;
         }
     } 
 }
