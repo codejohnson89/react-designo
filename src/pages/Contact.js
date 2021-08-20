@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useForm } from 'react-hook-form';
 
 import Jumbotron from '../components/Jumbotron';
@@ -7,6 +7,13 @@ import image from '../assets/contact/desktop/bg-pattern-hero-desktop.svg';
 import Locations from '../components/Locations';
 
 const Contact = () => {
+
+    useEffect(() => {
+        const midsection = document.querySelector('.midsection');
+        midsection.style = "display: none";
+        console.log(midsection)
+    }, [])
+
     const { register, handleSubmit, formState: {errors} } = useForm();
     const onSubmit = (data) => {
         console.log(JSON.stringify(data));

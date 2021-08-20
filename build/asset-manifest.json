@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5b2607e.chunk.css",
-    "main.js": "/static/js/main.ca7c1639.chunk.js",
-    "main.js.map": "/static/js/main.ca7c1639.chunk.js.map",
+    "main.css": "/static/css/main.48079655.chunk.css",
+    "main.js": "/static/js/main.28a186d5.chunk.js",
+    "main.js.map": "/static/js/main.28a186d5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7545a8a1.js",
     "runtime-main.js.map": "/static/js/runtime-main.7545a8a1.js.map",
     "static/css/2.cc12d890.chunk.css": "/static/css/2.cc12d890.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.afda9229.chunk.js.map": "/static/js/2.afda9229.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cc12d890.chunk.css.map": "/static/css/2.cc12d890.chunk.css.map",
-    "static/css/main.d5b2607e.chunk.css.map": "/static/css/main.d5b2607e.chunk.css.map",
+    "static/css/main.48079655.chunk.css.map": "/static/css/main.48079655.chunk.css.map",
     "static/js/2.afda9229.chunk.js.LICENSE.txt": "/static/js/2.afda9229.chunk.js.LICENSE.txt",
     "static/media/bg-pattern-hero-about-desktop.3239891f.svg": "/static/media/bg-pattern-hero-about-desktop.3239891f.svg",
     "static/media/bg-pattern-hero-desktop.fdd40c2d.svg": "/static/media/bg-pattern-hero-desktop.fdd40c2d.svg",
@@ -42,7 +42,7 @@
     "static/js/runtime-main.7545a8a1.js",
     "static/css/2.cc12d890.chunk.css",
     "static/js/2.afda9229.chunk.js",
-    "static/css/main.d5b2607e.chunk.css",
-    "static/js/main.ca7c1639.chunk.js"
+    "static/css/main.48079655.chunk.css",
+    "static/js/main.28a186d5.chunk.js"
   ]
 }

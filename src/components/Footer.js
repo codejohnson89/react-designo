@@ -7,6 +7,7 @@ import logo from '../assets/shared/desktop/logo-light.png';
 
 
 const Footer = () => {
+
     return (
         <>
         <FooterMidSection />
