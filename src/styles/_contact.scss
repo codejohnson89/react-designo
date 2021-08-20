@@ -75,10 +75,21 @@
         .jumbotron {
             .form-content {
                 text-align: center;
+                max-width: 327px;
+                margin: 0 auto;
 
                 #submit {
                     margin-top: 2em;
+                    float: none;
+                    
                 }
+            }
+
+            .contact-content {
+                max-width: 327px;
+                margin: 0 auto 48px;
+                text-align: center;
+                height: 185px;
             }
         }
     }

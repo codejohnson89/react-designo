@@ -19,9 +19,9 @@ const Footer = () => {
                             <img className="img-fluid" src={logo} alt="footer logo"/>
                         </figure>
                         <div className="footerTextLinks">
-                            <Link to="/">our company</Link>
-                            <Link to="/">locations</Link>
-                            <Link to="/">contact</Link>
+                            <Link to="/about">our company</Link>
+                            <Link to="/location">locations</Link>
+                            <Link to="/contact">contact</Link>
                         </div>
                     </div>
                 </Row>
