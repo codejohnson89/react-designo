@@ -27,7 +27,8 @@ const Contact = () => {
                     <p>Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.</p>
                 </div>
                 <div className="form-content">
-                    <form onSubmit={handleSubmit(onSubmit)}>
+                    <form name="contact" onSubmit={handleSubmit(onSubmit)} data-netlify="true">
+                    <input type="hidden" name="contact" value="contact" />
                         <div>
                             <input placeholder="Full Name" type="text" {...register("fullName", {required: true})} />
                             {errors.fullName && <span>This field is required</span>}

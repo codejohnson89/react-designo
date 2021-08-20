@@ -27,10 +27,10 @@
             .phone {
                 left: 0;
                 bottom: unset;
-                top: 0px;
+                top: 90px;
             }
         }
-    }
+    } 
 }
 
 
@@ -87,6 +87,11 @@
 
         p {
             width: 327px;
+        }
+        a {
+            button {
+                margin-top: 2em;
+            }
         }
     }
 }
