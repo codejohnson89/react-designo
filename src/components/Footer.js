@@ -16,7 +16,7 @@ const Footer = () => {
                     <div className="flex-sm-row d-flex">
                         {/* <h3 className="logoTextFooter"><div id="circle"></div>designo</h3> */}
                         <figure>
-                            <img className="img-fluid" src={logo} alt="footer logo"/>
+                            <img className="img-fluid" loading="lazy" src={logo} alt="footer logo"/>
                         </figure>
                         <div className="footerTextLinks">
                             <Link to="/about">our company</Link>
