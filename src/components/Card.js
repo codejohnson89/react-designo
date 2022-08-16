@@ -13,7 +13,7 @@ const Card = (props) => {
     return (
         <>
         <div class="card">
-            <img src={image} className="card-img-top" alt={altText}/>
+            <img loading="lazy" src={image} className="card-img-top" alt={altText}/>
             <div class="card-body">
                 <h3 class="card-title">{heading}</h3>
                 <p class="card-text">{text}</p>
