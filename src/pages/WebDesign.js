@@ -14,6 +14,12 @@ import express from '../assets/web-design/desktop/image-express.jpg';
 import photon from '../assets/web-design/desktop/image-photon.jpg';
 import transfer from '../assets/web-design/desktop/image-transfer.jpg';
 
+/**
+ * It returns a div with a Jumbotron, a div with a class of card-container card-container-grid, and a
+ * div with a class of project-container
+ * @returns A div with a class of subpage, a Jumbotron, a div with a class of card-container
+ * card-container-grid, a div with a class of project-container, and a Designs component.
+ */
 const WebDesign = () => {
     return (
         <>

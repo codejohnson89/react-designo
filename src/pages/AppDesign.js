@@ -14,6 +14,11 @@ import loopstudios from '../assets/app-design/desktop/image-loopstudios.jpg';
 import todo from '../assets/app-design/desktop/image-todo.jpg';
 
 
+/**
+ * It returns a div with a jumbotron, a card container, and a project container
+ * @returns A div with a class of subpage five, a Jumbotron, a div with a class of card-container
+ * card-container-grid, a div with a class of project-container, and a Designs component.
+ */
 const AppDesign = () => {
     return (
         <>

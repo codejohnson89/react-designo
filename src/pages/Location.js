@@ -1,6 +1,17 @@
 import React from 'react';
 
 
+/**
+ * It returns a div with the className of mapContainer locations, which contains three divs with the
+ * className of singleMap, which contains a div with the className of contact, which contains an h1,
+ * which contains the text "canada", and a div with the className of contact-info, which contains two
+ * divs with the className of left and right, which contain a p with the className of office, which
+ * contains the text "Designo Central Office", and a p, which contains the text "3886 Wellington
+ * Street", and a p, which contains the text "Toronto, Ontario M9C 3J5", and a p with the className of
+ * phone, which contains the text "Contact", and a p, which contains the text "P : +1 253-863-8967",
+ * and a p, which contains the text "M : contact@designo.co", and a div with the className of map one
+ * @returns A div with the className of mapContainer locations.
+ */
 const Location = () => {
     return (
         <>

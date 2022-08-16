@@ -4,6 +4,12 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../assets/shared/desktop/logo-dark.png';
 
+/**
+ * The Header function returns a header element that contains a Navbar element that contains a
+ * Container element that contains a Link element that contains a figure element that contains an img
+ * element
+ * @returns A header with a navbar that collapses on select and expands to lg.
+ */
 const Header = () => {
     return(
         <header>

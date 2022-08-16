@@ -12,6 +12,11 @@ import web from '../assets/home/desktop/image-web-design-large.jpg';
 import Designs from '../components/Designs';
 
 
+/**
+ * It returns a div with a Jumbotron, a div with a class of card-container card-container-grid, and a
+ * div with a class of project-container
+ * @returns A function that returns a JSX element.
+ */
 const GraphicDesign = () => {
     return (
         <>

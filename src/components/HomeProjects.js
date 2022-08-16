@@ -2,6 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
+/**
+ * This function returns a div with an id of homeProjects, which contains a row div with three link
+ * components, each of which contains a div with a class of design, which contains a div with a class
+ * of text-container, which contains an h2 and a p
+ * @returns A div with the id of homeProjects.
+ */
 const HomeProjects = () => {
     return (
         <div id="homeProjects">

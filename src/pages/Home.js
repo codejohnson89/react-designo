@@ -12,6 +12,11 @@ import resourceful from '../assets/home/desktop/illustration-resourceful.svg';
 import { Link } from 'react-router-dom';
 
 
+/**
+ * This function returns a Jumbotron component, an Oval component, a HomeProjects component, and a
+ * Container component
+ * @returns A function that returns a JSX element.
+ */
 const Home = () => {
     return(
         <>

@@ -1,5 +1,10 @@
 import React from 'react';
 
+/**
+ * It returns a div with a class name of "oval-circle" and a style object with the properties of
+ * backgroundColor, opacity, borderRadius, height, width, position, top, and zIndex
+ * @returns A div with a className of "oval-circle" and a style of styles.
+ */
 const Oval = () => {
 
     const styles = {

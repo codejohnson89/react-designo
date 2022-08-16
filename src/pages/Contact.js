@@ -6,6 +6,10 @@ import Jumbotron from '../components/Jumbotron';
 import image from '../assets/contact/desktop/bg-pattern-hero-desktop.svg';
 import Locations from '../components/Locations';
 
+/**
+ * The Contact component is a functional component that uses the useForm hook to create a form that
+ * submits to Netlify
+ */
 const Contact = () => {
 
     useEffect(() => {

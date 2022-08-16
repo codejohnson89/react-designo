@@ -6,6 +6,13 @@ import FooterMidSection from './FooterMidSection';
 import logo from '../assets/shared/desktop/logo-light.png';
 
 
+/**
+ * The Footer component is a functional component that returns a footer element with a FooterMidSection
+ * component, a Row element with a div element with a flex-sm-row class, a figure element with an img
+ * element with a class of img-fluid and a src attribute of logo, and a div element with a class of
+ * footerTextLinks and Link elements
+ * @returns A footer with a top section and a bottom section.
+ */
 const Footer = () => {
 
     return (

@@ -1,6 +1,11 @@
 import React from 'react';
 
 
+/**
+ * The Card function takes in props and returns a div with an image, heading, and text
+ * @param props - This is the props object that is passed to the component.
+ * @returns A card with an image, heading, and text.
+ */
 const Card = (props) => {
 
     const { image, altText, heading, text } = props;

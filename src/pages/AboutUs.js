@@ -6,6 +6,14 @@ import hero from '../assets/about/desktop/bg-pattern-hero-about-desktop.svg';
 import Locations from '../components/Locations';
 
 
+/**
+ * This function returns a Jumbotron component with a background image, a div with a class of aboutUs,
+ * a div with a class of content, a div with a class of bgImage, a div with a class of
+ * about-special-jumbotron, a Jumbotron component, a div with a class of content, a div with a class of
+ * bgImage, a Locations component, a div with a class of about-special-jumbotron, a Jumbotron
+ * component, a div with a class of content, a div with a class of bgImage
+ * @returns A React Fragment
+ */
 const AboutUs = () => {
     return (
         <>
